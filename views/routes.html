@@ -1,0 +1,38 @@
+<div class='route-text'>
+    Find routes here
+</div>
+<div align='center'>
+    <form class="form-inline">
+  <div class="form-group">
+    <label for="Name"></label>
+    <input type="text" class="form-control" ng-model='route_name' placeholder='Name'>
+  </div>
+  <div class="form-group">
+    <label for="Rating"></label>
+    <input type="text" class="form-control" ng-model='route_rating' placeholder='Rating'>
+  </div>
+    <div class="form-group">
+    <label for="Location"></label>
+    <input type="text" class="form-control" ng-model='route_location' placeholder='Location'>
+  </div>
+</form>
+</div>
+<div align='center' class='container'>
+    <table class='table table-bordered' style='background: lightgray'>
+         <thead>
+             <tr>
+                 <th>Name</th>
+                 <th>Rating</th>
+                 <th>Location</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr ng-repeat='route in routes | filter:{name: route_name, rating: route_rating, location: route_location}' ng-show='route_name || route_rating || route_location'>
+                <td>{{route.name}}</td>
+                <td>{{route.rating}}</td>
+                <td>{{route.location[1]}}</td>
+             </tr>
+         </tbody>
+    </table>
+</div>
+
