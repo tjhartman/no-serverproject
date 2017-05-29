@@ -65,11 +65,12 @@ a:visited {
 //------------------Routes css--------------------------
 
 .route-text {
-    width: 100%;
+    // width: 100%;
     text-align: center;
     margin-top: 350px;
-    color: white;
+    color: lightgrey;
     font-size: 50px;
+
 }
 
 .table {
@@ -84,7 +85,6 @@ a:visited {
     height: 200px;
     overflow-y: auto;
     width: 60%;
-    background: lightgrey;
 }
 
 //------------------About css-----------------------------

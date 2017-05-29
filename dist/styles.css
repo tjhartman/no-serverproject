@@ -433,10 +433,9 @@ a:visited {
   background-color: transparent; }
 
 .route-text {
-  width: 100%;
   text-align: center;
   margin-top: 350px;
-  color: white;
+  color: lightgrey;
   font-size: 50px; }
 
 .table {
@@ -448,8 +447,7 @@ a:visited {
 .container {
   height: 200px;
   overflow-y: auto;
-  width: 60%;
-  background: lightgrey; }
+  width: 60%; }
 
 .about-text {
   width: 100%;
