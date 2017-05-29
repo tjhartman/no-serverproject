@@ -83,15 +83,20 @@ a:visited {
 .container {
     height: 200px;
     overflow-y: auto;
+    width: 60%;
+    background: lightgrey;
 }
 
 //------------------About css-----------------------------
 
 .about-text {
-     width: 100%;
+    width: 100%;
     text-align: center;
     margin-top: 350px;
     color: white;
     font-size: 50px;
 }
+
+//////////////////////////////
+
 

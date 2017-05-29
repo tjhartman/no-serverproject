@@ -447,7 +447,9 @@ a:visited {
 
 .container {
   height: 200px;
-  overflow-y: auto; }
+  overflow-y: auto;
+  width: 60%;
+  background: lightgrey; }
 
 .about-text {
   width: 100%;
